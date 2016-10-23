@@ -1,0 +1,31 @@
+.news_list{
+  max-width: $container-width;
+  margin: 10px auto;
+  .title-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title{
+      
+    }
+  }
+  .lists{
+    ul{
+      padding: 15px 0;
+      li{
+        margin-bottom: 4px;
+        .date{
+          display: inline-block;
+          padding-right: 25px;
+          font-size: $font-size-normal;
+        }
+        .news-title{
+          a{
+            font-size: $font-size-normal;
+          }
+        }
+      }
+    }
+  }
+  
+}

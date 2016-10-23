@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  font-family: $font-family;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+  &:hover{
+    color: $main-blue;
+  }
+}
+
+.icon{
+  color:$main-blue;
+  font-size: 18px;
+  padding: 3px;
+  font-style:normal;
+}
+
+ul{
+  li{
+    list-style: none;
+  }
+}
+
+.bg-blue{
+  background-color: $main-blue;
+}
+.bg-blue-dark{
+  background-color: $main-blue-dark;
+}
