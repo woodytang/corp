@@ -1,41 +1,55 @@
-*{
-  padding: 0;
-  margin: 0;
+* {
+  margin  : 0;
+  padding : 0;
 }
 
-html{
-  height: 100%;
+html {
+  height : 100%;
 }
 
-body{
-  height: 100%;
-  font-family: $font-family;
+body {
+  height      : 100%;
+  font-family : $font-family;
 }
 
-a{
-  text-decoration: none;
-  color: #000000;
-  &:hover{
-    color: $main-blue;
+a {
+  color           : #000000;
+  text-decoration : none;
+
+  &:hover {
+    color : $main-blue;
   }
 }
 
-.icon{
-  color:$main-blue;
-  font-size: 18px;
-  padding: 3px;
-  font-style:normal;
+.icon {
+  padding    : 3px;
+  color      : $main-blue;
+  font-size  : 18px;
+  font-style : normal;
 }
 
-ul{
-  li{
-    list-style: none;
+ul {
+  li {
+    list-style : none;
   }
 }
 
-.bg-blue{
-  background-color: $main-blue;
+.bg-blue {
+  background-color : $main-blue;
 }
-.bg-blue-dark{
-  background-color: $main-blue-dark;
+
+.bg-blue-dark {
+  background-color : $main-blue-dark;
+}
+
+.bg-green {
+  background-color : $main-green;
+}
+
+.half{
+  width: 50%;
+}
+
+.full{
+  width: 100%
 }

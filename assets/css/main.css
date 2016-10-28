@@ -194,6 +194,109 @@ header {
 .bg-green:before {
   background-color: #42c294; }
 
+.card-list {
+  width: 100%;
+  min-height: 300px;
+  background-color: #f2f2f2; }
+  .card-list .card-list-wrap-top {
+    display: flex;
+    width: 1000px;
+    max-height: 370px;
+    margin: 0 auto;
+    padding: 30px 0 15px 0;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .card-list .card-list-wrap-top .left {
+      display: flex;
+      height: 350px;
+      flex-direction: column;
+      justify-content: space-between; }
+  .card-list .card-list-wrap-middle {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #dddddd;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .card-list .card-list-wrap-middle .card-n {
+      margin-bottom: 20px; }
+  .card-list .card-list-wrap-bottom {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
+footer {
+  width: 100%; }
+  footer .footer-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0; }
+    footer .footer-wrap .about {
+      display: flex;
+      width: 100%;
+      padding-top: 30px;
+      align-items: center;
+      justify-content: space-between; }
+      footer .footer-wrap .about .left {
+        width: 35%;
+        height: 100px;
+        background-color: #f2f2f2; }
+      footer .footer-wrap .about .right {
+        width: 60%; }
+        footer .footer-wrap .about .right p {
+          color: #333333;
+          font-size: 14px; }
+        footer .footer-wrap .about .right .right-bottom {
+          margin-top: 10px;
+          padding-top: 10px; }
+    footer .footer-wrap .site-map {
+      width: 100%;
+      margin: 40px 0 0 0;
+      padding: 20px 0;
+      border-top: 1px solid #dddddd;
+      border-bottom: 1px solid #dddddd; }
+      footer .footer-wrap .site-map .logo {
+        display: flex;
+        padding: 35px 0;
+        align-items: center;
+        justify-content: center; }
+        footer .footer-wrap .site-map .logo img {
+          width: 220px;
+          height: auto; }
+      footer .footer-wrap .site-map .map {
+        display: flex;
+        width: 100%;
+        padding: 35px 0;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        footer .footer-wrap .site-map .map ul {
+          display: block;
+          list-style: none; }
+          footer .footer-wrap .site-map .map ul li {
+            display: block;
+            font-size: 13px; }
+          footer .footer-wrap .site-map .map ul .title {
+            padding: 8px 0;
+            font-size: 14px;
+            font-weight: bolder; }
+    footer .footer-wrap .copyright {
+      display: flex;
+      width: 100%;
+      padding: 15px 0;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-size: 12px; }
+      footer .footer-wrap .copyright .right ul li {
+        display: inline-block; }
+
 .btn {
   border-radius: 100px;
   padding: 5px 15px;
@@ -214,3 +317,50 @@ header {
   color: #333333; }
   .btn-default i {
     color: #20a0e4; }
+
+.card {
+  transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1); }
+
+.card-h {
+  width: 660px;
+  height: 165px; }
+  .card-h .bg-wrap {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #dddddd;
+    background-position: center;
+    background-size: cover; }
+
+.card-h-s {
+  width: 235px;
+  height: 70px; }
+  .card-h-s .bg-wrap {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #dddddd;
+    background-position: center;
+    background-size: cover; }
+
+.card-v {
+  width: 320px;
+  height: 350px; }
+  .card-v .bg-wrap {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #dddddd;
+    background-position: center;
+    background-size: cover; }
+
+.card-n {
+  width: 320px;
+  height: 230px; }
+  .card-n .bg-wrap {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #dddddd;
+    background-position: center;
+    background-size: cover; }
