@@ -1,0 +1,23 @@
+.v-menu {
+  width : 100%;
+
+  ul {
+    display    : block;
+    border-top : 2px solid #20A0E4;
+
+    li {
+      display       : block;
+      padding       : 15px 10px 10px 20px;
+      border-bottom : 1px solid rgba(242, 242, 242, 0.5);
+      cursor        : pointer;
+
+      &:first-child {
+        font-weight : bolder;
+      }
+
+      &:hover {
+        background-color : rgba(242, 242, 242, 0.5);
+      }
+    }
+  }
+}

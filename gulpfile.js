@@ -16,7 +16,7 @@ gulp.task('sass:watch', function () {
 var htmlImport = require('gulp-html-import');
 
 gulp.task('import', function () {
-    gulp.src('./src/html/index.html')
+    gulp.src('./src/html/list1.html')
         .pipe(htmlImport('./src/html/components/'))
         .pipe(gulp.dest('./'));
 })

@@ -364,3 +364,57 @@ footer {
     background-color: #dddddd;
     background-position: center;
     background-size: cover; }
+
+.v-menu {
+  width: 100%; }
+  .v-menu ul {
+    display: block;
+    border-top: 2px solid #20A0E4; }
+    .v-menu ul li {
+      display: block;
+      padding: 15px 10px 10px 20px;
+      border-bottom: 1px solid rgba(242, 242, 242, 0.5);
+      cursor: pointer; }
+      .v-menu ul li:first-child {
+        font-weight: bolder; }
+      .v-menu ul li:hover {
+        background-color: rgba(242, 242, 242, 0.5); }
+
+.l1_main {
+  width: 100%;
+  background-color: #F2F2F2; }
+  .l1_main .l1_hero {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative; }
+    .l1_main .l1_hero .banner {
+      height: 250px;
+      width: 1000px;
+      margin: 0 auto;
+      box-sizing: border-box;
+      background-color: #E7E2DF;
+      z-index: 10; }
+    .l1_main .l1_hero:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 250px;
+      background-color: #ffffff; }
+  .l1_main .wrapper {
+    width: 1000px;
+    height: 100%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .l1_main .wrapper .left-col {
+      background-color: #fff;
+      min-height: 200px;
+      width: 250px; }
+    .l1_main .wrapper .right-col {
+      background-color: #fff; }
